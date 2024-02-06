@@ -1,8 +1,11 @@
+
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 import SliderBar from "@/components/SlideBar";
+import MyApp from '@/components/LearningDoc/添加交互/06 更新state中的数组/index'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body className={inter.className} >
-              <div className={'flex'}>
-                <SliderBar />
-                <div className="w-full h-full">{children}</div>
+              <div className="flex w-full h-full">
+                  <SliderBar  />
+                  <div className="border border-indigo-600 w-full h-full">
+                    <MyApp />
+                  </div>
+                  
+                {/* <div className="w-full h-full">{children}</div> */}
             </div>
          </body>
     </html>
