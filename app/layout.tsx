@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import SliderBar from "@/components/SlideBar";
-import MyApp from '@/components/LearningDoc/添加交互/06 更新state中的数组/index'
+import MyApp from '@/components/LearningDoc/对State进行保留和重置/challenge2'
 
 const inter = Inter({ subsets: ["latin"] });
 

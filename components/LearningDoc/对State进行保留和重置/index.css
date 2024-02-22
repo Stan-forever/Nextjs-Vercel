@@ -1,0 +1,17 @@
+.counter {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    flex-direction: column
+}
+
+.hover {
+    background-color: #ffffd8;
+}
+
+.fancy {
+    border: 2px solid #ffd700;
+}
